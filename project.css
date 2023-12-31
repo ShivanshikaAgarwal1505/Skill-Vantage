@@ -1,0 +1,22 @@
+*{
+    font-size: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    margin: 0px 0px 147px 0px;
+    /* box-shadow: 0 4px 4px 1px #474747; */
+}
+.b{
+    background-image: linear-gradient(to right, #4D32F7 20%, #17c9fc 80%);
+}
+.logo{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #d9f3fa;
+}
+.nav-link, .dropdown-item{
+    color: #d9f3fa;
+    text-decoration: none;
+}
