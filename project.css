@@ -81,3 +81,66 @@
     transform: rotate(-45deg);
     top: 13px;
 }
+/* .list-group-item:hover{
+    background-color: black;
+} */
+a:hover {
+    color: rgb(223, 222, 222);
+    text-decoration: none;
+}
+
+/* 
+.list-group-item:hover i{
+    color: black;
+} */
+.newClass {
+    background-image: none;
+    background-color: black;
+    transition: 0.8s;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-size: 12vh;
+    font-weight: bolder;
+}
+
+.fig:hover {
+    will-change: transform;
+    transform: perspective(300px) rotateX(-0.49deg) rotateY(1.95deg) scale3d(1, 1, 1);
+}
+
+/* search bar */
+.box {
+    position: relative;
+}
+
+.search {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 4px solid #ecebeb;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: transparent;
+    outline: none;
+    transition: .5s;
+}
+
+.box:hover input,
+.search:focus {
+    width: 300px;
+    border-radius: 30px;
+    color: #ecebeb;
+}
+
+.box i {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: #ecebeb;
+    transition: .5s;
+}
