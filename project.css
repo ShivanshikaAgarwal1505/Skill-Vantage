@@ -144,3 +144,12 @@ a:hover {
     color: #ecebeb;
     transition: .5s;
 }
+/* cards */
+.card {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+
+}
