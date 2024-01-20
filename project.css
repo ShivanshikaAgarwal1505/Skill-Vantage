@@ -217,3 +217,21 @@ a:hover {
     width: 100%;
     color: #fff;
 }
+
+.slick-next,
+.slick-prev {
+    width: 29px;
+    height: 29px;
+    padding: 5px;
+    border-radius: 14px;
+    background: #cfcece;
+}
+
+.slick-next:hover,
+.slick-prev:hover {
+    width: 29px;
+    height: 29px;
+    padding: 5px;
+    border-radius: 14px;
+    background: #cfcece;
+}
