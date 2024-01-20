@@ -179,3 +179,41 @@ a:hover {
     height: 15px;
     width: 15px;
 }
+/* card button */
+.an {
+    display: block;
+    line-height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #525252;
+    border: 2px solid #525252;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.span {
+    font-size: 15px;
+}
+
+.an:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #17c9fc;
+    transition: all .35s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.an:hover:after {
+    content: "GO";
+    width: 100%;
+    color: #fff;
+}
