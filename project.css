@@ -235,3 +235,27 @@ a:hover {
     border-radius: 14px;
     background: #cfcece;
 }
+
+/* Product Page */
+
+.heading {
+    cursor: pointer;
+    background-image: #fff;
+    border-bottom: solid 1px #212121;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: background-color 0.5s ease;
+}
+
+.heading:hover {
+    background-image: linear-gradient(to right, #4D32F7 2%, #17c9fc 98%);
+    border-bottom: 1px solid #4D32F7;
+}
+
+.heading:active {
+    border-bottom: solid 1px #d8d7d7;
+}
+
+.tab-content {
+    display: none;
+}
