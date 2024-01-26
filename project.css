@@ -259,3 +259,38 @@ a:hover {
 .tab-content {
     display: none;
 }
+
+/* Card */
+.ul {
+    list-style: none;
+}
+
+.ul>li,
+.card-title {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cpb {
+    border: 3px solid #4D32F7;
+    border-radius: 10px;
+}
+
+.cpi {
+    color: #4D32F7;
+}
+
+.cpb:hover,
+.cpb:focus {
+    background-image: linear-gradient(to right, #4D32F7 2%, #17c9fc 98%);
+    color: #fff;
+    border: none;
+}
+
+.cpb:hover .cpi,
+.cpb:focus .cpi {
+    color: #fff;
+}
